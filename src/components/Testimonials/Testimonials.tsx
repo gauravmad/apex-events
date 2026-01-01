@@ -125,7 +125,7 @@ export default function Testimonials() {
   return (
     <section id="testimonials" className="py-24 relative overflow-hidden">
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-card/30 via-background to-card/30" />
+      <div className="absolute inset-0 bg-linear-to-b from-card/30 via-background to-card/30" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">
         {/* Section Header */}
@@ -280,7 +280,7 @@ export default function Testimonials() {
                   alt={image.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <div className="absolute bottom-4 left-4 right-4 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
                   <h4 className="font-semibold text-white text-sm">{image.title}</h4>
                   <p className="text-xs text-white/70 flex items-center gap-1">

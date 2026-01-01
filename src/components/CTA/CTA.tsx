@@ -15,7 +15,7 @@ export default function CTA() {
           }}
         />
         <div className="absolute inset-0 bg-black/80" />
-        <div className="absolute inset-0 bg-gradient-to-r from-golden/20 via-transparent to-golden/20" />
+        <div className="absolute inset-0 bg-linear-to-r from-golden/20 via-transparent to-golden/20" />
       </div>
 
       {/* Decorative Elements */}

@@ -20,8 +20,8 @@ export default function Hero() {
             backgroundImage: "url('/img67.jpeg')",
           }}
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/80 to-black/60" />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-r from-black/90 via-black/80 to-black/60" />
+        <div className="absolute inset-0 bg-linear-to-t from-background via-transparent to-transparent" />
       </div>
 
       {/* Decorative Elements */}
@@ -151,7 +151,7 @@ export default function Hero() {
                   alt="Wedding Event Staff"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent" />
                 <div className="absolute bottom-4 left-4 right-4">
                   <span className="text-xs text-golden uppercase tracking-wider">Exhibition Events</span>
                   <h3 className="text-lg font-semibold text-white">Premium Event Staff</h3>
@@ -170,7 +170,7 @@ export default function Hero() {
                   alt="Corporate Event Staff"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent" />
                 <div className="absolute bottom-4 left-4 right-4">
                   <span className="text-xs text-golden uppercase tracking-wider">Corporate Events</span>
                   <h3 className="text-lg font-semibold text-white">Professional Coordinators</h3>

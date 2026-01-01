@@ -68,7 +68,7 @@ export default function WhyUs() {
             backgroundImage: "url('/events.jpeg')",
           }}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background via-background/95 to-background" />
+        <div className="absolute inset-0 bg-linear-to-b from-background via-background/95 to-background" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">
@@ -115,7 +115,7 @@ export default function WhyUs() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.3 }}
-              className="p-6 rounded-2xl bg-gradient-to-r from-golden/10 to-golden/5 border border-golden/20"
+              className="p-6 rounded-2xl bg-linear-to-r from-golden/10 to-golden/5 border border-golden/20"
             >
               <div className="flex items-start gap-4">
                 <div className="w-14 h-14 rounded-xl bg-golden/20 flex items-center justify-center flex-shrink-0">
