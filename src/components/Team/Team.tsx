@@ -94,7 +94,7 @@ export default function Team() {
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                   {/* Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity" />
+                  <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity" />
                   
                   {/* Content */}
                   <div className="absolute bottom-0 left-0 right-0 p-4">
@@ -122,7 +122,7 @@ export default function Team() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.3 }}
-          className="mt-16 p-8 rounded-3xl bg-gradient-to-r from-golden/10 via-golden/5 to-golden/10 border border-golden/20"
+          className="mt-16 p-8 rounded-3xl bg-linear-to-r from-golden/10 via-golden/5 to-golden/10 border border-golden/20"
         >
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex items-center gap-4">

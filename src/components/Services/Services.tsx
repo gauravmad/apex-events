@@ -61,7 +61,7 @@ export default function Services() {
   return (
     <section id="services" className="py-24 relative overflow-hidden">
       {/* Background Elements */}
-      <div className="absolute inset-0 bg-gradient-to-b from-background via-card/30 to-background" />
+      <div className="absolute inset-0 bg-linear-to-b from-background via-card/30 to-background" />
       <div className="absolute top-0 left-0 w-96 h-96 rounded-full bg-golden/5 blur-[150px]" />
       <div className="absolute bottom-0 right-0 w-96 h-96 rounded-full bg-golden/5 blur-[150px]" />
 
@@ -107,7 +107,7 @@ export default function Services() {
                 />
                 
                 {/* Dark Overlay - Always visible */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/20 transition-all duration-500 group-hover:from-black/95 group-hover:via-black/70 group-hover:to-black/50" />
+                <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/40 to-black/20 transition-all duration-500 group-hover:from-black/95 group-hover:via-black/70 group-hover:to-black/50" />
                 
                 {/* Icon Badge */}
                 <div className="absolute top-4 right-4 w-12 h-12 rounded-xl bg-golden/20 backdrop-blur-xl flex items-center justify-center border border-golden/30 transition-all duration-300 group-hover:bg-golden group-hover:border-golden">

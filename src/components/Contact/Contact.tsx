@@ -73,7 +73,7 @@ export default function Contact() {
   return (
     <section id="contact" className="py-24 relative overflow-hidden">
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-card/30 via-background to-background" />
+      <div className="absolute inset-0 bg-linear-to-b from-card/30 via-background to-background" />
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] rounded-full bg-golden/5 blur-[200px]" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">
@@ -141,7 +141,7 @@ export default function Contact() {
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: 0.4 }}
               whileHover={{ scale: 1.02 }}
-              className="flex items-center gap-4 p-6 rounded-2xl bg-gradient-to-r from-green-600/20 to-green-500/10 border border-green-500/30 hover:border-green-500/50 transition-all"
+              className="flex items-center gap-4 p-6 rounded-2xl bg-linear-to-r from-green-600/20 to-green-500/10 border border-green-500/30 hover:border-green-500/50 transition-all"
             >
               <div className="w-14 h-14 rounded-xl bg-green-500/20 flex items-center justify-center">
                 <MessageSquare className="w-7 h-7 text-green-400" />

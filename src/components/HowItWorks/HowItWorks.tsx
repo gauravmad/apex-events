@@ -71,7 +71,7 @@ export default function HowItWorks() {
         {/* Steps */}
         <div className="relative">
           {/* Connection Line - Desktop */}
-          <div className="hidden lg:block absolute top-24 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-golden/30 to-transparent" />
+          <div className="hidden lg:block absolute top-24 left-0 right-0 h-0.5 bg-linear-to-r from-transparent via-golden/30 to-transparent" />
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {steps.map((step, index) => (
@@ -92,7 +92,7 @@ export default function HowItWorks() {
                   <div className="relative flex justify-center mb-8">
                     <motion.div
                       whileHover={{ scale: 1.1, rotate: 5 }}
-                      className="w-20 h-20 rounded-2xl bg-gradient-to-br from-golden/20 to-golden/10 border-2 border-golden/30 flex items-center justify-center relative z-10 group-hover:border-golden transition-colors"
+                      className="w-20 h-20 rounded-2xl bg-linear-to-br from-golden/20 to-golden/10 border-2 border-golden/30 flex items-center justify-center relative z-10 group-hover:border-golden transition-colors"
                     >
                       <step.icon className="w-8 h-8 text-golden" />
                     </motion.div>
