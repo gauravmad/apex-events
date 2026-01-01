@@ -18,8 +18,8 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Phone",
-    value: "+91 98765 43210",
-    href: "tel:+919876543210",
+    value: "+91 87971 09335",
+    href: "tel:+918797109335",
   },
   {
     icon: Mail,
@@ -133,7 +133,7 @@ export default function Contact() {
 
             {/* WhatsApp CTA */}
             <motion.a
-              href="https://wa.me/919876543210"
+              href="https://wa.me/918797109335"
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, y: 20 }}

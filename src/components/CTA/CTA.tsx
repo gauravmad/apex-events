@@ -100,7 +100,7 @@ export default function CTA() {
             <ArrowRight className="w-5 h-5" />
           </motion.a>
           <motion.a
-            href="tel:+919876543210"
+            href="tel:+918797109335"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/10 backdrop-blur-sm text-foreground font-semibold rounded-full border border-white/20 hover:bg-white/20 transition-all"

@@ -104,9 +104,9 @@ export default function Footer() {
             <h4 className="text-golden font-semibold mb-6">Contact</h4>
             <ul className="space-y-4">
               <li>
-                <a href="tel:+919876543210" className="flex items-start gap-3 text-muted-foreground hover:text-foreground transition-colors">
+                <a href="tel:+918797109335" className="flex items-start gap-3 text-muted-foreground hover:text-foreground transition-colors">
                   <Phone className="w-5 h-5 mt-0.5 flex-shrink-0" />
-                  <span>+91 98765 43210</span>
+                  <span>+91 87971 09335</span>
                 </a>
               </li>
               <li>
