@@ -106,7 +106,7 @@ export default function Footer() {
               <li>
                 <a href="tel:+918118823591" className="flex items-start gap-3 text-muted-foreground hover:text-foreground transition-colors">
                   <Phone className="w-5 h-5 mt-0.5 flex-shrink-0" />
-                  <span>+91 87971 09335</span>
+                  <span>+91 81188 23591</span>
                 </a>
               </li>
               <li>

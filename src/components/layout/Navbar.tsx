@@ -35,7 +35,7 @@ export default function Navbar() {
           <div className="flex items-center gap-6">
             <a href="tel:+918118823591" className="flex items-center gap-2 text-muted-foreground hover:text-golden transition-colors">
               <Phone className="w-4 h-4" />
-              <span>+91 87971 09335</span>
+              <span>+91 81188 23591</span>
             </a>
             <a href="mailto:info@apexevent.in" className="flex items-center gap-2 text-muted-foreground hover:text-golden transition-colors">
               <Mail className="w-4 h-4" />
@@ -148,7 +148,7 @@ export default function Navbar() {
                 <div className="pt-4 border-t border-border space-y-3">
                   <a href="tel:+918118823591" className="flex items-center gap-2 text-muted-foreground hover:text-golden transition-colors">
                     <Phone className="w-4 h-4" />
-                    <span>+91 87971 09335</span>
+                    <span>+91 81188 23591</span>
                   </a>
                   <a href="mailto:info@apexevent.in" className="flex items-center gap-2 text-muted-foreground hover:text-golden transition-colors">
                     <Mail className="w-4 h-4" />
