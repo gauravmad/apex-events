@@ -33,7 +33,7 @@ export default function Navbar() {
       <div className="hidden md:block bg-[#0a0a0f] border-b border-border py-2">
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center text-sm">
           <div className="flex items-center gap-6">
-            <a href="tel:+918797109335" className="flex items-center gap-2 text-muted-foreground hover:text-golden transition-colors">
+            <a href="tel:+918118823591" className="flex items-center gap-2 text-muted-foreground hover:text-golden transition-colors">
               <Phone className="w-4 h-4" />
               <span>+91 87971 09335</span>
             </a>
@@ -146,7 +146,7 @@ export default function Navbar() {
                   Get a Quote
                 </motion.a>
                 <div className="pt-4 border-t border-border space-y-3">
-                  <a href="tel:+918797109335" className="flex items-center gap-2 text-muted-foreground hover:text-golden transition-colors">
+                  <a href="tel:+918118823591" className="flex items-center gap-2 text-muted-foreground hover:text-golden transition-colors">
                     <Phone className="w-4 h-4" />
                     <span>+91 87971 09335</span>
                   </a>
